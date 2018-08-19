@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     height: 100%;
+    
 }
 
 *,
@@ -11,7 +12,8 @@ html {
 
 body {
     display: flex;
-    margin: 0;
+    margin:auto;
+    width: 90%;
     height: 100%;
 }
 
@@ -40,6 +42,8 @@ body {
     text-align: center;
 }
 
+
+
 h2 {
     margin: 0;
     transform: rotate(-45deg);
@@ -56,4 +60,8 @@ h2 {
 
 #london {
     background-color: green;
+}
+
+#berlin {
+    background-color: purple;
 }
